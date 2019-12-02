@@ -8,7 +8,7 @@ var connection=mysql.createConnection(
        user:config.get("user"),
        database:config.get("database"),
        password:config.get("password"),
-
+       port:config.get("port")  
     }
    )
    module.exports=connection;

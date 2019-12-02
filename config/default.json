@@ -1,7 +1,7 @@
 {
-    "host":"localhost",
-     "database":"mydb1",
+    "host":"172.18.4.119",
+     "database":"mydbNew",
      "user":"root",
-     "password":"manager",
-     "port":"9888"
+     "password":"root",
+     "port":9099
 }

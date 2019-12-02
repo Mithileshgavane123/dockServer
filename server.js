@@ -4,7 +4,7 @@ var app=express();
 
 var config=require("config");
 
-var empRouter=require("./routes/emp");
+var empRouter=require("./routes/product");
 
 var port=parseInt(config.get("port"));
 
@@ -16,9 +16,9 @@ app.use(function(req, res, next) {
 });
 
 
-app.use("/emp",empRouter);
+app.use("/product",empRouter);
 
-app.listen(port,()=>
+app.listen(7777,()=>
 {
-    console.log("server started on port 9888.........");
+    console.log("server started on port 7777.........");
 })
