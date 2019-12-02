@@ -21,4 +21,5 @@ app.use("/product",empRouter);
 app.listen(7777,()=>
 {
     console.log("server started on port 7777.........");
+    console.log("server started on port 7777.........");
 })
